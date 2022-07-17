@@ -1,4 +1,4 @@
 flask
 requests
-json
+json==3.4
 gunicorn

@@ -38,7 +38,6 @@ def summarise():
     })
     combine.append(output2[0]["summary_text"])
     return jsonify(combine)
-    #return render_template('summary.html',ans=output[0]["summary_text"])
 
 if __name__=='__main__':
     app.run(debug=True)
