@@ -15,7 +15,7 @@ def summarise():
         word_count=int(request.form.get("word_count"))
 
     combine=[]
-    headers = {"Authorization": "Bearer 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"}
+    headers = {"Authorization": "Bearer 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"}
     API_URL = "https://api-inference.huggingface.co/models/facebook/bart-large-cnn"
     def query(payload):
         para = json.dumps(payload)
